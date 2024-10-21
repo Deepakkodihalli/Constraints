@@ -7,7 +7,7 @@ constraint pattern_c {
       if (i % 2 == 0) begin
         num_pattern[i] == 1'b0;     // Every even index should be 0
       end else begin
-        num_pattern[i] == (i+1)/2;   // Every odd index should follow 1, 2, 3, ..., 10
+        num_pattern[i] == (i+1)/2;   // Every odd index should follow 1, 2, 3, ...,5
       end
     }
   }
